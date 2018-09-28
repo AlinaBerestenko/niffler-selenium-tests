@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="all tests" verbose="1" >
+<test name="regression">
+    <classes>
+        <class name="UITest.functionalityTests.SignInTest"/>
+        <class name="UITest.functionalityTests.ProfileTest"/>
+        <class name="UITest.functionalityTests.SignUpTest"/>
+        <class name="UITest.functionalityTests.WalletTest"/>
+    </classes>
+</test>
+
+</suite>

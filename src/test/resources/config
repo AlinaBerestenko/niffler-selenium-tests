@@ -1,0 +1,18 @@
+user.dir = /Users/alina/IdeaProjects/tests-selenium
+
+
+url = https://gecgame.sandbx.co
+email = alina.berestenko@sandbx.co
+password = 123456Qwe
+
+
+
+referral_link = https://gecgame.sandbx.co/sign-up/4c52b6c8797a7b818d22a63144e4e2ea
+
+EN = src/test/resources/translationEN.csv
+ZN = src/test/resources/translationZH.csv
+
+
+#referral_link = https://gecgame.sandbx.co/sign-up/4c52b6c8797a7b818d22a63144e4e2ea
+#referral_link = https://gecgame.sandbx.co/sign-up/4c52b6c8797a7b818d22a63144e4e2ea
+#referral_link = https://gecgame.sandbx.co/sign-up/4c52b6c8797a7b818d22a63144e4e2ea

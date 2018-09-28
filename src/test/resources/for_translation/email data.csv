@@ -1,0 +1,6 @@
+testaddress;INVALID_EMAIL
+#%^%#$#$@.com;INVALID_EMAIL
+@domain.com;INVALID_EMAIL
+email.domain.com;INVALID_EMAIL
+email@domain;INVALID_EMAIL
+;REQUIRED_EMAIL

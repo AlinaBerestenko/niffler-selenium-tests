@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="localization">
+    <test name="localization en">
+        <parameter name="locale" value="en"/>
+        <classes>
+            <class name="UITest.translationTests.SignUpTranslationTests"/>
+            <class name="UITest.translationTests.SignInTranslationTests"/>
+            <class name="UITest.translationTests.ProfileTranslationTests"/>
+            <class name="UITest.translationTests.WalletTranslationTests"/>
+            <class name="UITest.translationTests.FinancialInfoTranslationTests"/>
+        </classes>
+    </test>
+    <test name="localization zh">
+        <parameter name="locale" value="zh"/>
+        <classes>
+            <class name="UITest.translationTests.SignUpTranslationTests"/>
+            <class name="UITest.translationTests.SignInTranslationTests"/>
+            <class name="UITest.translationTests.ProfileTranslationTests"/>
+            <class name="UITest.translationTests.WalletTranslationTests"/>
+            <class name="UITest.translationTests.FinancialInfoTranslationTests"/>
+        </classes>
+    </test>
+    <!--<test name="localization zh-cn">-->
+        <!--<parameter name="locale" value="zh-cn"/>-->
+        <!--<classes>-->
+            <!--<class name="UITest.translationTests.TranslationSignUpTest"/>-->
+            <!--<class name="UITest.translationTests.SignInTranslationTests"/>-->
+            <!--<class name="UITest.translationTests.ProfileTranslationTests"/>-->
+            <!--<class name="UITest.translationTests.GeneralTranslationTests"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>

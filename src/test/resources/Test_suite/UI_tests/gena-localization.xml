@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="localization" parallel="tests" thread-count="2">
+    <test name="localization en">
+        <parameter name="locale" value="en"/>
+        <groups>
+            <define name="test"></define>
+            <run>
+                <include name="test"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="UITest.translationTests.TranslationSignUpTest"/>
+        </classes>
+    </test>
+    <test name="localization zh">
+        <parameter name="locale" value="zh"/>
+        <groups>
+            <define name="test"></define>
+            <run>
+                <include name="test"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="UITest.translationTests.TranslationSignUpTest"/>
+        </classes>
+    </test>
+</suite>

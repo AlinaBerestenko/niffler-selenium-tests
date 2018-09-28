@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="localization" verbose="1">
+    <test name="localization en">
+        <parameter name="locale" value="en"/>
+        <classes>
+            <class name="UITest.translationTests.FinancialInfoTranslationTests"/>
+            <class name="UITest.translationTests.WalletTranslationTests"/>
+        </classes>
+    </test>
+    <test name="localization zh">
+        <parameter name="locale" value="zh"/>
+        <classes>
+            <class name="UITest.translationTests.FinancialInfoTranslationTests"/>
+            <class name="UITest.translationTests.WalletTranslationTests"/>
+        </classes>
+    </test>
+</suite>
